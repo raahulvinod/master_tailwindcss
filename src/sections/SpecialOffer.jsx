@@ -1,6 +1,6 @@
 import { arrowRight } from '../assets/icons';
 import { offer } from '../assets/images';
-import { Button } from '../components';
+import Button from '../components/Button';
 
 const SpecialOffer = () => {
   return (
@@ -16,7 +16,7 @@ const SpecialOffer = () => {
       </div>
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Special </span>
+          <span className="text-orange-400">Special </span>
           Offer
         </h2>
         <p className="mt-4 info-text">
