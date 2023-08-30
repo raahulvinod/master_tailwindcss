@@ -19,6 +19,9 @@ import {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
+  nike1,
+  nike2,
+  nike3,
 } from '../assets/images';
 
 export const navLinks = [
@@ -30,16 +33,16 @@ export const navLinks = [
 
 export const shoes = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: nike1,
+    bigShoe: nike1,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: nike2,
+    bigShoe: nike2,
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: nike3,
+    bigShoe: nike3,
   },
 ];
 

@@ -1,12 +1,12 @@
 import Button from '../components/Button';
 import { arrowRight } from '../assets/icons';
-import { bigShoe1, bigShoe2, bigShoe3 } from '../assets/images';
+import { bigShoe1, bigShoe2, bigShoe3, nike1 } from '../assets/images';
 import { shoes, statistics } from '../constants';
 import { useState } from 'react';
 import ShoeCard from '../components/ShoeCard';
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(nike1);
 
   return (
     <section
